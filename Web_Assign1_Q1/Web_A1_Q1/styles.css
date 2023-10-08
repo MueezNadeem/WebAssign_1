@@ -1,0 +1,60 @@
+.logo {
+  margin: 1vh;
+  width: 4.5vh;
+}
+.toprow {
+  margin-left: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+.data{
+  height: 80%
+}
+.skills {
+  border-top: 1px solid darkgrey;
+  margin-top: 5%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.links:hover {
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px blue;
+  background-color: cornflowerblue;
+  text-decoration: dotted;
+}
+.mainitem {
+  margin-right: 10%;
+  font-size: 2.4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listitems {
+  color: rgb(10, 10, 10);
+
+  font-size: 2vh;
+  font-family: sans-serif;
+}
+.profilepic {
+  position: relative;
+  top: -10%;
+}
+
+.profilepic:hover {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
